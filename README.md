@@ -22,9 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Use Badwordgem::Base.sanitize() method.
+I used an instance of it in my Rails project inside my controller under my Def Create 
+Here is the line where I added it.
+@appointment.notes = Badwordgem::Base.sanitize(@appointment.notes)
 
 ## Development
+
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
